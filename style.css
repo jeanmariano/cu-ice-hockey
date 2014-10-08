@@ -1,0 +1,130 @@
+@font-face { font-family: Nexa; src: url('Nexa Light.otf'); }
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf'); }
+
+
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size:11pt;
+	color:909090;
+	margin: 0;
+	letter-spacing: 1px;
+	cursor: url(images/cur.png), auto;
+}
+div {
+	overflow:visible;
+}
+div#content {
+	width: 900px;
+	margin: auto;
+	border: 0px solid red;
+	//padding-top:12em;
+}
+div#header {
+	border-bottom: 5px solid #c4e4ff;
+	background-color: #16bcd9;
+	background-image: url("images/bgscratch.png");
+	padding-top: 25px;
+	margin-bottom:50px;
+	width:100%;
+	//position:fixed;
+}
+div#headercont {
+	width: 900px;
+	margin: auto;
+	border: 0px solid red;
+	height:125px;
+}
+div#banner {
+	float: left;
+	padding-top:13px;
+}
+div#nav {
+	float: right;
+	padding: 18px;
+	background-color: #44c6dd;
+	background-image: url("images/bgscratch.png");
+	border-radius: 0px;
+	text-shadow:1px 1px 1px #ccc;
+}
+div#lefthalf {
+	width:49%;
+	display:inline-block;
+	vertical-align: top;
+	padding-right:0%;
+}
+div#righthalf {
+	width:49%;
+	vertical-align: top;
+	display:inline-block;
+	padding-left:1%;
+}
+a {
+	color:#14b8d5;
+}
+a.nav {
+	font: 14px 'Nexa', sans-serif;
+	width: 150px;
+	color: #fff;
+	background-image: url("navarrow.png");
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding-top: 3px;
+	letter-spacing: 2pt;
+	display: block;
+	text-decoration:none;
+} 
+a.nav:hover {
+	background-color: #1a4c80;
+}
+h1 {
+	font: 24px Nexa, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #14b8d5;
+	font-weight:bold;
+	border-bottom: 1px solid #ccc;
+}
+h2 {
+	font: 18px Nexa, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #14b8d5;
+	font-weight:bold;
+}
+p#intro {
+	font-size: 19px;
+}
+p.footer {
+	font-size:10px;
+	text-align:right;
+}
+img {
+	padding-right: 25px;
+}
+img#banner {
+	padding: 0;
+}
+img#teampic{
+	width:49%;
+	float: left;
+	padding-top:20px;"
+}
+table#info {
+	width:100%;
+	border:0px;
+	padding:0;
+}
+tr.toggle {
+	background-color: #eee;
+}
+td {
+	padding: 5px;
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #ccc; 
+}
+#hi {
+	position: absolute; left: -1000px; top:200px;
+}

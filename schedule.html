@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Columbia University Women's Ice Hockey</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id="header">
+		<div id="headercont">
+			<div id="banner">
+				<a href="/cu/womenshockey/"><img id="banner" src="images/banner.png"/></a>
+			</div>
+
+			<div id="nav">
+				<a class="nav" href="roster.html">ROSTER</a>
+				<a class="nav" href="schedule.html">SCHEDULE</a>
+				<a class="nav" href="stats.html">STATS</a>
+				<a class="nav" href="gallery.html">GALLERY</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="content">
+
+	<h1>Schedule</h1>
+	Date with Jean!!! all the time
+			
+<br /><br />
+<hr />
+<p class="footer">&copy; 2014 Columbia University Women's Ice Hockey</p>
+			<br />
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		    var img = $("#hi"),
+		        width = img.get(0).width,
+		        screenWidth = $(window).width(),
+		        duration = 10000;
+
+		    function animateWow() {
+		        img.css("left", -width).animate({
+		            "left": screenWidth
+		        }, duration, animateWow);
+			}
+			animateWow();
+		});
+		
+	</script>
+	<a href="hi.php"><img id="hi" src="hi.gif" /></a>
+</body>
+</html>
